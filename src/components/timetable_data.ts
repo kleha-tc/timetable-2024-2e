@@ -1,16 +1,15 @@
-export type timetable_type = {
-  early_period: {
-    m: string[][],
-    d: string[][],
-    e: string[][],
-    i: string[][]
-  },
-  late_period: {
-    m: string[][],
-    d: string[][],
-    e: string[][],
-    i: string[][]
-  }
+export interface timetable_type{
+  early_period: period_timetable
+  late_period: period_timetable
+  [key: string]: period_timetable
+}
+
+interface period_timetable {
+  m: string[][],
+  d: string[][],
+  e: string[][],
+  i: string[][],
+  [key: string]: string[][]
 }
 
 export const timetable: timetable_type = {

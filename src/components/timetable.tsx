@@ -7,7 +7,6 @@ import { Select, MenuItem, FormControl, NativeSelect } from "@mui/material";
 const TimeTable = () => {
     const [cource,setCource] = useState("e"); {/**ここのeを書き換えることでデフォルト表示コースを変更可能 */}
     const [period, setPeriod] = useState("late_period")
-    let p: string = "late_period"
     return (
         <>
             <NativeSelect defaultValue={"late_period"} onChange={(event) => setPeriod(event.target.value)}>
