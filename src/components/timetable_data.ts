@@ -241,7 +241,8 @@ export const timetable: timetable_type = {
       [
         "生物",
         "保健体育2",
-        "社会2"
+        "社会2",
+        "HR"
       ],
       [
         "工学基礎実習",
