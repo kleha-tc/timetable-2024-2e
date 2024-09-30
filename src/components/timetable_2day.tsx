@@ -1,10 +1,10 @@
 import React from 'react';
-import timetable from './timetable_data'
+import { timetable } from './timetable_data'
 import '@/styles/title.css'
 
-const TimeTable2 = (props) => {
+const TimeTable2 = (props: any) => {
   let today = new Date().getDay();
-  let weekday = props.day == 0 ? today: today + props.day;
+  let weekday: number = props.day == 0 ? today: today + props.day;
   switch (today) {
     case 5:
       if(props.day == 1){
@@ -21,14 +21,13 @@ const TimeTable2 = (props) => {
       break;
   };
   console.log(weekday)
-  let daytimetable = [];
-  timetable["early_period"]["e"][weekday].map((item) => { {/**ここのeを書き換えると他コースの時間割を出力 */}
+  let daytimetable: any = [];
+  timetable["late_period"]["e"][weekday].map((item) => { {/**ここのeを書き換えると他コースの時間割を出力 */}
     return(
       daytimetable.push(item)
     );
   });
   console.log(daytimetable)
-  console.log(weekday)
   return (
     <div className = {"grid grid-cols-5 text-xl mr-5 p-1 border-collapse"}>
       <h1 className = {"text-2xl col-span-5 p-2 mb-5 midashi"}>{props.day == 0 ? "今日" : "明日"} の時間割</h1>
