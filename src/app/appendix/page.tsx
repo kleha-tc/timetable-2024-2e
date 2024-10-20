@@ -16,7 +16,7 @@ const Appendix = () => {
       {!isComputer && <HeaderMobile />}
 
       <Title>おまけコーナー</Title>
-      <p className='text-3xl m-5 p-5'>Comming Soon...</p>
+      <p className='text-3xl m-5 p-5'>Coming Soon...</p>
     </>
   )
 }

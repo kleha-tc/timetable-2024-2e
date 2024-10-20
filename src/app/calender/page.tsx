@@ -14,7 +14,7 @@ const ClassCalendar = () => {
             {!isComputer && <HeaderMobile />}
 
             <Title>クラスカレンダー</Title>
-            <h1 className="text-3xl p-5 m-5">Comming Soon...</h1>
+            <h1 className="text-3xl p-5 m-5">Coming Soon...</h1>
         </>
     )
 }
