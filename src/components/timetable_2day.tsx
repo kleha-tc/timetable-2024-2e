@@ -22,7 +22,7 @@ const TimeTable2 = (props: any) => {
   };
   console.log(weekday)
   let daytimetable: any = [];
-  timetable["late_period"]["e"][weekday - 1].map((item) => { {/**ここのeを書き換えると他コースの時間割を出力 */}
+  timetable["early_period_3"]["e"][weekday - 1].map((item) => { {/**ここのeを書き換えると他コースの時間割を出力 */}
     return(
       daytimetable.push(item)
     );

@@ -5,6 +5,8 @@ import Body from "./body";
 const InfoTop = () => {
     return(
         <>
+            <Midashi>3年前期時間割に対応しました!</Midashi>
+            <Body><p>本サイトを3年バージョンが完成するまでの仮設サイトとするため、3年前期時間割対応版にアップデートしました。2年の時間割は「Timetable」ページのドロップダウンから選択することで確認できます!</p></Body>
             <Midashi>後期時間割に対応しました!</Midashi>
             <Body><p>本サイトを後期時間割対応版にアップデートしました。前期時間割は「Timetable」ページのドロップダウンから選択することで確認できます!</p></Body>
             <Midashi>夏休み課題ページを作成しました！</Midashi>

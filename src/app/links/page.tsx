@@ -27,15 +27,9 @@ const Links = () => {
                 <ul className="pl-5">
                     <li><a href="https://classroom.google.com/">Google Classroom (https://classroom.google.com)</a></li>
                 </ul>
-                <Midashi>その他授業関係</Midashi>
-                <ul className="pl-5">
-                    <li><a href="https://lms.omu.ac.jp">Moodle (https://lms.omu.ac.jp)</a></li>
-                    <li><a href="https://www.ct.omu.ac.jp/pect-lab/lecture/">エレクトロニクス概論授業資料</a></li>
-                    <li><a href="https://tin-straw-281.notion.site/3-4_-206d780bd02b449aa57f5c8986529d64?pvs=4&classId=62d8cd25-d9bb-41ee-9415-08e1f8eacbbe">英語3・4情報まとめサイト</a></li>
-                </ul>
                 <Midashi>その他教務関係</Midashi>
                 <ul className="pl-5">
-                    <li><a href="https://forms.office.com/r/ezU9UsePG4">遅刻欠席連絡フォーム</a></li>
+                    <li><a href="https://forms.office.com/r/eeBchDwxf0">遅刻欠席連絡フォーム(2025年度3年)</a></li>
                 </ul>
                 <Midashi>HP</Midashi>
                 <ul className="pl-5">
@@ -48,6 +42,11 @@ const Links = () => {
                     <li><a href="https://www.upc-osaka.ac.jp/">公立大学法人大阪HP</a></li>
                     <li><a href="https://www.omu.ac.jp/">大阪公立大学HP</a></li>
                     <li><a href="https://www2.ct.osakafu-u.ac.jp/">大阪府立大学工業高等専門学校HP</a></li>
+                </ul>
+                <Midashi>2年のときの授業関係</Midashi>
+                <ul className="pl-5">
+                    <li><a href="https://www.ct.omu.ac.jp/pect-lab/lecture/">エレクトロニクス概論授業資料</a></li>
+                    <li><a href="https://tin-straw-281.notion.site/3-4_-206d780bd02b449aa57f5c8986529d64?pvs=4&classId=62d8cd25-d9bb-41ee-9415-08e1f8eacbbe">英語3・4情報まとめサイト</a></li>
                 </ul>
             </Body>
         </>
